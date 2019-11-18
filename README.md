@@ -2,10 +2,9 @@
 
 # Yesterday - day w5d2
 
-- Google Maps
-- Google Maps with Express
+- Google Maps and with Express
 - A bit more on APIs
-- Ajax
+- Ajax with Axios
 
 ## Activities
 
@@ -14,18 +13,20 @@
 
 # Today - day w5d3
 
-- Fullstack APP 8:30
+- Fullstack Pizza App 9
 - Axios POST / PUT
 - Nodemailer
 
 ## Activities
 
-- Using API data to represent the information in canvas
-- Using Google Maps to locate cafeterias along with CRUD
+- Axios CRUD exercise with JSON server
+- Implement confirmation emails
+- Sit down with your project partner
+- Project and API's showcase
 
 # Next - day w5d4
 
-- File Upload (with and without CDN)
+-
 
 # Goals
 
