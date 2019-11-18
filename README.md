@@ -8,7 +8,7 @@
 
 ## Activities
 
-- Using API data to represent the information in canvas
+- Using API data to represent the information in canvas using ChartJS
 - Using Google Maps to locate cafeterias along with CRUD
 
 # Today - day w5d3
@@ -16,6 +16,7 @@
 - Fullstack Pizza App 9
 - Axios POST / PUT
 - Nodemailer
+- ChartJS - micro learning
 
 ## Activities
 
@@ -23,14 +24,17 @@
 - Implement confirmation emails
 - Sit down with your project partner
 - Project and API's showcase
+- Start thinking with your partner the app you will implement in project 2
 
 # Next - day w5d4
 
--
+- Continue thinking with your partner the app you will implement in project 2
+- Design and / or find the API you want to use
+- File Upload with and without a CDN
 
 # Goals
 
-- Create a full stack app
+- Create a full stack app with your partner
 - Send emails by server side code
 - Update and create new records from the front end
 
