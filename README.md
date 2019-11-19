@@ -5,6 +5,8 @@
 - Google Maps and with Express
 - A bit more on APIs
 - Ajax with Axios
+- Postman
+- ChartJs
 
 ## Activities
 
