@@ -15,7 +15,7 @@
 
 # Today - day w5d3
 
-- Fullstack Pizza App 9
+- Fullstack Pizza App - starting 9am
 - Axios POST / PUT
 - Nodemailer
 - ChartJS - micro learning
