@@ -18,7 +18,6 @@
 - Fullstack Pizza App - starting 9am
 - Axios POST / PUT
 - Nodemailer
-- ChartJS - micro learning
 
 ## Activities
 
@@ -30,6 +29,7 @@
 
 # Next - day w5d4
 
+- ChartJS - micro learning
 - Continue thinking with your partner the app you will implement in project 2
 - Design and / or find the API you want to use
 - File Upload with and without a CDN
