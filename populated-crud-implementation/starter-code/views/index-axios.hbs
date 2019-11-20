@@ -1,8 +1,8 @@
 {{!-- modern way --}}
-<a href="/">Classic</a>
-<a href="/axios">Axios update</a>
-<h1>Modern way creation (axios)</h1>
-
+<a href="/">Classic update</a>
+<a href="/axios-creation">Axios creation</a>
+<h1>Modern way update (axios)</h1>
+<h3 style="color: red;">Calories updates the form just by typing on it!</h3>
 
 <form>
   <input type="text" name="name" value="{{name}}">
@@ -10,7 +10,7 @@
   <input type="text" name="calories" value="{{calories}}">
   <input type="hidden" name="_id" value="{{_id}}">
 
-  <input type="button" name="" id="submit-button" value="create">
+  <input type="button" name="" id="submit-button" value="update">
 </form>
 
 <script>
@@ -32,7 +32,8 @@
     })
   }
 
-  document.querySelector("input[name=calories]").onkeydown = function () {
+  document.querySelector("input[name=calories]").onkeyup = function () {
+    console.log(document.querySelector("input[name=calories]").value)
     update()
   }
 
