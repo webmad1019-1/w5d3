@@ -1,0 +1,57 @@
+{{!-- modern way --}}
+<a href="/">Classic</a>
+<h1>Modern way (axios)</h1>
+
+
+<form>
+  <input type="text" name="name" placeholder="name" value="test">
+  <input type="text" name="price" placeholder="price" value="10">
+  <input type="text" name="calories" placeholder="calories" value="1250">
+
+  <input type="button" name="" id="submit-button" value="create">
+</form>
+
+<script>
+  function listIngredientsViaConsoleLog() {
+    axios.get("/list-ingredients").then(ingredients => {
+      console.clear()
+      ingredients.data.forEach(ingredient => {
+        console.log(ingredient.name)
+      })
+    })
+  }
+
+  function create(e) {
+    // this cancels the default action of a button inside a form
+    // which is submitting the form
+    e && e.preventDefault()
+
+    axios({
+      // this is the http verb (post) -> means "creation" of CRUD
+      method: 'post',
+      // url we are posting to
+      url: "/createIngredient",
+      // data involved in the ingredient creation
+      data: {
+        name: document.querySelector("input[name=name]").value,
+        price: document.querySelector("input[name=price]").value,
+        calories: document.querySelector("input[name=calories]").value,
+      },
+      config: { headers: { 'Content-Type': 'multipart/form-data' } }
+    }).then((createdIngredient) => {
+      // this is the server response after the ingredient has been created
+      console.log(createdIngredient.data)
+
+      listIngredientsViaConsoleLog()
+    })
+  }
+
+  document.querySelector("#submit-button").onclick = function (e) {
+    create(e)
+  }
+
+  listIngredientsViaConsoleLog()
+
+
+
+</script>

@@ -1,0 +1,43 @@
+{{!-- modern way --}}
+<a href="/">Classic</a>
+<a href="/axios">Axios update</a>
+<h1>Modern way creation (axios)</h1>
+
+
+<form>
+  <input type="text" name="name" value="{{name}}">
+  <input type="text" name="price" value="{{price}}">
+  <input type="text" name="calories" value="{{calories}}">
+  <input type="hidden" name="_id" value="{{_id}}">
+
+  <input type="button" name="" id="submit-button" value="create">
+</form>
+
+<script>
+  function update(e) {
+    e && e.preventDefault()
+
+    axios({
+      method: 'put',
+      url: "/updateIngredient",
+      data: {
+        _id: "5dd534c8c7127d7aff23df5c",
+        name: document.querySelector("input[name=name]").value,
+        price: document.querySelector("input[name=price]").value,
+        calories: document.querySelector("input[name=calories]").value,
+      },
+      config: { headers: { 'Content-Type': 'multipart/form-data' } }
+    }).then(() => {
+      console.log("Updated")
+    })
+  }
+
+  document.querySelector("input[name=calories]").onkeydown = function () {
+    update()
+  }
+
+  document.querySelector("#submit-button").onclick = function (e) {
+    update(e)
+  }
+
+</script>
