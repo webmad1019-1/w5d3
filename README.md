@@ -2,34 +2,41 @@
 
 # Yesterday - day w5d2
 
-- Google Maps
-- Google Maps with Express
+- Google Maps and with Express
 - A bit more on APIs
-- Ajax
+- Ajax with Axios
+- Postman
+- ChartJs
 
 ## Activities
 
-- Using API data to represent the information in canvas
+- Using API data to represent the information in canvas using ChartJS
 - Using Google Maps to locate cafeterias along with CRUD
 
 # Today - day w5d3
 
-- Fullstack APP 8:30
+- Fullstack Pizza App - starting 9am
 - Axios POST / PUT
 - Nodemailer
+- ChartJS - micro learning
 
 ## Activities
 
-- Using API data to represent the information in canvas
-- Using Google Maps to locate cafeterias along with CRUD
+- Axios CRUD exercise with JSON server
+- Implement confirmation emails
+- Sit down with your project partner
+- Project and API's showcase
+- Start thinking with your partner the app you will implement in project 2
 
 # Next - day w5d4
 
-- File Upload (with and without CDN)
+- Continue thinking with your partner the app you will implement in project 2
+- Design and / or find the API you want to use
+- File Upload with and without a CDN
 
 # Goals
 
-- Create a full stack app
+- Create a full stack app with your partner
 - Send emails by server side code
 - Update and create new records from the front end
 
