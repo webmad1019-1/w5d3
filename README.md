@@ -36,9 +36,11 @@
 
 # Goals
 
-- Create a full stack app with your partner
+- Practise in class (by yourself) creating a rollercoaster CRUD application
+- Create a full stack app with your partner - Minions
 - Send emails by server side code
 - Update and create new records from the front end
+- Meet your project 2 partner and start getting inspired
 
 # Bonus
 
