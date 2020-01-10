@@ -15,7 +15,7 @@
 
 # Today - day w5d3
 
-- Fullstack Pizza App - starting 9am
+- Fullstack Rollercoaster App - starting 9am
 - Axios POST / PUT
 - Nodemailer
 
